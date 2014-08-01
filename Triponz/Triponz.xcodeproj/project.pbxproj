@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5004335B198BC3C60077C290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004335A198BC3C60077C290 /* AppDelegate.swift */; };
+		5004335D198BC3C60077C290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004335C198BC3C60077C290 /* ViewController.swift */; };
+		50043360198BC3C60077C290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5004335E198BC3C60077C290 /* Main.storyboard */; };
+		50043362198BC3C60077C290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50043361198BC3C60077C290 /* Images.xcassets */; };
+		5004336E198BC3C60077C290 /* TriponzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004336D198BC3C60077C290 /* TriponzTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50043368198BC3C60077C290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5004334D198BC3C50077C290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50043354198BC3C50077C290;
+			remoteInfo = Triponz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50043355198BC3C50077C290 /* Triponz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triponz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50043359198BC3C60077C290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5004335A198BC3C60077C290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5004335C198BC3C60077C290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5004335F198BC3C60077C290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50043361198BC3C60077C290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50043367198BC3C60077C290 /* TriponzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriponzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5004336C198BC3C60077C290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5004336D198BC3C60077C290 /* TriponzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriponzTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50043352198BC3C50077C290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50043364198BC3C60077C290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5004334C198BC3C50077C290 = {
+			isa = PBXGroup;
+			children = (
+				50043357198BC3C50077C290 /* Triponz */,
+				5004336A198BC3C60077C290 /* TriponzTests */,
+				50043356198BC3C50077C290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50043356198BC3C50077C290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50043355198BC3C50077C290 /* Triponz.app */,
+				50043367198BC3C60077C290 /* TriponzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50043357198BC3C50077C290 /* Triponz */ = {
+			isa = PBXGroup;
+			children = (
+				5004335A198BC3C60077C290 /* AppDelegate.swift */,
+				5004335C198BC3C60077C290 /* ViewController.swift */,
+				5004335E198BC3C60077C290 /* Main.storyboard */,
+				50043361198BC3C60077C290 /* Images.xcassets */,
+				50043358198BC3C60077C290 /* Supporting Files */,
+			);
+			path = Triponz;
+			sourceTree = "<group>";
+		};
+		50043358198BC3C60077C290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50043359198BC3C60077C290 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5004336A198BC3C60077C290 /* TriponzTests */ = {
+			isa = PBXGroup;
+			children = (
+				5004336D198BC3C60077C290 /* TriponzTests.swift */,
+				5004336B198BC3C60077C290 /* Supporting Files */,
+			);
+			path = TriponzTests;
+			sourceTree = "<group>";
+		};
+		5004336B198BC3C60077C290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5004336C198BC3C60077C290 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50043354198BC3C50077C290 /* Triponz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50043371198BC3C60077C290 /* Build configuration list for PBXNativeTarget "Triponz" */;
+			buildPhases = (
+				50043351198BC3C50077C290 /* Sources */,
+				50043352198BC3C50077C290 /* Frameworks */,
+				50043353198BC3C50077C290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triponz;
+			productName = Triponz;
+			productReference = 50043355198BC3C50077C290 /* Triponz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50043366198BC3C60077C290 /* TriponzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50043374198BC3C60077C290 /* Build configuration list for PBXNativeTarget "TriponzTests" */;
+			buildPhases = (
+				50043363198BC3C60077C290 /* Sources */,
+				50043364198BC3C60077C290 /* Frameworks */,
+				50043365198BC3C60077C290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50043369198BC3C60077C290 /* PBXTargetDependency */,
+			);
+			name = TriponzTests;
+			productName = TriponzTests;
+			productReference = 50043367198BC3C60077C290 /* TriponzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5004334D198BC3C50077C290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GuyKahlon;
+				TargetAttributes = {
+					50043354198BC3C50077C290 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					50043366198BC3C60077C290 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 50043354198BC3C50077C290;
+					};
+				};
+			};
+			buildConfigurationList = 50043350198BC3C50077C290 /* Build configuration list for PBXProject "Triponz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5004334C198BC3C50077C290;
+			productRefGroup = 50043356198BC3C50077C290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50043354198BC3C50077C290 /* Triponz */,
+				50043366198BC3C60077C290 /* TriponzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50043353198BC3C50077C290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50043360198BC3C60077C290 /* Main.storyboard in Resources */,
+				50043362198BC3C60077C290 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50043365198BC3C60077C290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50043351198BC3C50077C290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5004335D198BC3C60077C290 /* ViewController.swift in Sources */,
+				5004335B198BC3C60077C290 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50043363198BC3C60077C290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5004336E198BC3C60077C290 /* TriponzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50043369198BC3C60077C290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50043354198BC3C50077C290 /* Triponz */;
+			targetProxy = 50043368198BC3C60077C290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5004335E198BC3C60077C290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5004335F198BC3C60077C290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5004336F198BC3C60077C290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50043370198BC3C60077C290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50043372198BC3C60077C290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Triponz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50043373198BC3C60077C290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Triponz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50043375198BC3C60077C290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Triponz.app/Triponz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TriponzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		50043376198BC3C60077C290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Triponz.app/Triponz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TriponzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50043350198BC3C50077C290 /* Build configuration list for PBXProject "Triponz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5004336F198BC3C60077C290 /* Debug */,
+				50043370198BC3C60077C290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50043371198BC3C60077C290 /* Build configuration list for PBXNativeTarget "Triponz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50043372198BC3C60077C290 /* Debug */,
+				50043373198BC3C60077C290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50043374198BC3C60077C290 /* Build configuration list for PBXNativeTarget "TriponzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50043375198BC3C60077C290 /* Debug */,
+				50043376198BC3C60077C290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5004334D198BC3C50077C290 /* Project object */;
+}
